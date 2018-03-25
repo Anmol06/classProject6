@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.anmol.classproject6.SigninActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/text1"
+        android:text="Id"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text1"
+        android:hint="Enter your id"
+        android:id="@+id/edit1"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/text2"
+        android:layout_below="@+id/edit1"
+        android:text="Id"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text2"
+        android:hint="Enter your id"
+        android:id="@+id/edit2"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/button1"
+        android:layout_below="@+id/edit2"
+        android:text="login"
+        android:onClick="login"
+        android:layout_marginLeft="150dp"/>
+
+</RelativeLayout>
